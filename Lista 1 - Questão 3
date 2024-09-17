@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lista 1 - Questão 3</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header>
+        <h1>Lista 1 - Questão 3</h1>
+    </header>
+    
+    <main>
+        <section class="content">
+            <h2>Diferença entre Linguagem Server Side e Client Side</h2>
+            <p>
+                As <strong>linguagens Server Side</strong> são linguagens que o SERVIDOR entende. Isso quer dizer que vai escrever um código onde o servidor vai processá-lo e então vai mandar para o seu navegador a resposta. Já as <strong>linguagens Client Side</strong> são linguagens onde apenas o seu NAVEGADOR vai entender. Quem vai processar essa linguagem não é o servidor, mas o seu browser.
+                <a href="https://tableless.github.io/iniciantes/manual/obasico/o-que-front-back.html#:~:text=As%20linguagens%20server-side%20são,o%20seu%20NAVEGADOR%20vai%20entender.">Mais  informações</a>
+            </p>
+             <div class="comparison">
+                <div class="box server-side">
+                    <h3>Server Side</h3>
+                    <ul>
+                        <li>PHP</li>
+                        <li>Node.js</li>
+                        <li>Python (Django, Flask)</li>
+                        <li>Ruby (Ruby on Rails)</li>
+                    </ul>
+                </div>
+
+                <div class="box client-side">
+                    <h3>Client Side</h3>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Todos os direitos reservados -2024 - Desenvolvido por Kayky dos Santos Pereira</p>
+    </footer>
+</body>
+</html>
+
+
+
+Código em CSS
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eaeff1;
+    color: #2c3e50;
+}
+
+header {
+    background-color: #34495e;
+    color: #ecf0f1;
+    padding: 2rem 0;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+main .content {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #34495e;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.comparison {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.box {
+    width: 48%;
+    padding: 20px;
+    background-color: #f4f6f6;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.server-side {
+    border-left: 6px solid #3498db;
+}
+
+.client-side {
+    border-left: 6px solid #e74c3c;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    background-color: #ecf0f1;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #34495e;
+    color: #ecf0f1;
+    margin-top: 40px;
+    font-size: 1rem;
+}
+
