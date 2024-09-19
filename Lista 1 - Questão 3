@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Lista 1 - Questão 3</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
 </head>
 <body>
     <header>
@@ -18,6 +18,7 @@
             <p>
                 As <strong>linguagens Server Side</strong> são linguagens que o SERVIDOR entende. Isso quer dizer que vai escrever um código onde o servidor vai processá-lo e então vai mandar para o seu navegador a resposta. Já as <strong>linguagens Client Side</strong> são linguagens onde apenas o seu NAVEGADOR vai entender. Quem vai processar essa linguagem não é o servidor, mas o seu browser.
                 <a href="https://tableless.github.io/iniciantes/manual/obasico/o-que-front-back.html#:~:text=As%20linguagens%20server-side%20são,o%20seu%20NAVEGADOR%20vai%20entender.">Mais  informações</a>
+                <!-- Como não tem como colocar o link do sava optei por colocar um link da internet//-->
             </p>
              <div class="comparison">
                 <div class="box server-side">
@@ -43,10 +44,11 @@
     </main>
 
     <footer>
-        <p>&copy; Todos os direitos reservados -2024 - Desenvolvido por Kayky dos Santos Pereira.</p>
+        <p>&copy; Todos os direitos reservados -2024 - Desenvolvido por Kayky dos Santos Pereira</p>
     </footer>
 </body>
 </html>
+
 
 
 
