@@ -16,6 +16,7 @@
         }
 
         header {
+            font-family: Bookman Old Style;
             text-align: center;
             margin-bottom: 20px;
         }
@@ -73,7 +74,7 @@
 <body>
 
     <header>
-        <h1>Lista 1 - Questão 5</h1>
+        <h1>Continentes e seus países.</h1>
     </header>
 
     
