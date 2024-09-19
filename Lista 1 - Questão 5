@@ -7,7 +7,7 @@
     <title>Lista 1 - Questão 5</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family:Franklin Gothic Medium, sans-serif;
             margin: 0;
             padding: 20px;
             background-color: #f2e6e6;
@@ -16,7 +16,7 @@
         }
 
         header {
-            font-family: Bookman Old Style;
+            font-family: Bookman Old Style,sans-serif;
             text-align: center;
             margin-bottom: 20px;
         }
